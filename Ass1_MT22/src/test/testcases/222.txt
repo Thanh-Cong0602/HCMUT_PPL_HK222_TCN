@@ -1,0 +1,8 @@
+
+            main: function void() {
+            
+            if ((a == b) || (a == 3)) {
+                readString();
+            }
+            
+            }

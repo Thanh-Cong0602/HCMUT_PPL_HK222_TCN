@@ -1,0 +1,14 @@
+x: integer = 10;
+            y: integer = 20;
+            z: integer = 30;
+            foo: function integer (a: integer, b: integer) {
+                if (a > b) return a;
+                else return b;
+            }
+            bar: function boolean (n: integer) {
+                return (n >= x) && (n <= z);
+            }
+            main: function void() {
+                if (bar(y)) print("y is in range");
+                else print("y is out of range");
+        }

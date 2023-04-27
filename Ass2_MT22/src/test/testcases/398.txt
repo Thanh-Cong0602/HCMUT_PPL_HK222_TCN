@@ -1,0 +1,13 @@
+
+            funcA: function integer(n: integer) inherit funcB{
+                return n%10;
+            }
+            funcB: function void (out n: integer, n: integer){
+                n = n + voidA(n);
+            }
+            main: function void () {
+                n: integer = 10;
+                funcB(x,n);
+                return n;
+            }
+        

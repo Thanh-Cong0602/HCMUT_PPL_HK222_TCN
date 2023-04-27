@@ -1,0 +1,11 @@
+
+            foo: function integer(a: integer, b: integer) { 
+                if (a == b) return a;
+                else return foo(a + 1, b);
+            }
+            main: function void() {
+                x: integer;
+                x = foo(1, 5);
+                writeIntLn(x);
+            }
+        

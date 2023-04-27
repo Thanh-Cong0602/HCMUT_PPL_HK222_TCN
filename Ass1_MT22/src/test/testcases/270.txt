@@ -1,0 +1,11 @@
+
+            fibo: function integer(n: integer){
+                return fibo(n-1) + fibo(n-2);
+            }
+            main: function void() {
+            
+            for (i=0, i<10, i + 1) {
+                printInteger(max);
+            }
+            
+            }

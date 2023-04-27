@@ -1,0 +1,18 @@
+x: integer = 10; // This is x
+        y: integer = 20; // This is y
+        z: integer = 30; // This is z
+        main: function void() {
+            // This is a comment
+            foo(); // Call foo
+            bar(); // Call bar
+            baz(); // Call baz
+        }
+        foo: function void() {
+            x = y + z;
+        }
+        bar: function void() {
+            y = x + z;
+        }
+        baz: function void() {
+            z = x + y;
+        }

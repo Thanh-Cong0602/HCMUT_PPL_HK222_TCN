@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(swap, VoidType, [Param(arr, ArrayType([5], IntegerType)), Param(i, IntegerType), Param(j, IntegerType)], None, BlockStmt([VarDecl(temp, IntegerType), AssignStmt(Id(temp), ArrayCell(arr, [Id(i)])), AssignStmt(ArrayCell(arr, [Id(i)]), ArrayCell(arr, [Id(j)])), AssignStmt(ArrayCell(arr, [Id(j)]), Id(temp))]))
+])

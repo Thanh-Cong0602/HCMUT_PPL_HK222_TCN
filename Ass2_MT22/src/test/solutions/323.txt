@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, ArrayType([2, 3], IntegerType), [Param(n, IntegerType)], None, BlockStmt([VarDecl(x, IntegerType, IntegerLit(65)), VarDecl(y, ArrayType([2], IntegerType), ArrayLit([IntegerLit(2), IntegerLit(4)])), CallStmt(printInt, IntegerLit(1244123)), CallStmt(writeFloat, FloatLit(0.0))]))
+])

@@ -1,0 +1,9 @@
+foo: function boolean (a: boolean, b: boolean) {
+                return (a || b) && (! a || b);
+            }
+            bar: function boolean (n: integer) {
+                return (n > 0) && (n < 10);
+            }
+            main: function void() {
+                printBoolLn(foo(true, false) || bar(5));
+        }

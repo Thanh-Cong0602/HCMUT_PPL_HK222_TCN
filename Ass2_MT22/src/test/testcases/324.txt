@@ -1,0 +1,5 @@
+main: function void() {
+            for (a = 1, a == 1, a + 1) {
+                x = 1_234.5E-67;
+            }
+        }

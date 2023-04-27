@@ -1,0 +1,4 @@
+
+        delta: integer = fact({1,2,3,4});
+        a: integer = 5;
+        

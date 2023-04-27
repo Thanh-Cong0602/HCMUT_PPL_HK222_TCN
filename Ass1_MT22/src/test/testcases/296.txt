@@ -1,0 +1,7 @@
+
+        main: function void(){
+        
+            x = a + b + c + 12;
+            return " hello,hi";
+        }
+        

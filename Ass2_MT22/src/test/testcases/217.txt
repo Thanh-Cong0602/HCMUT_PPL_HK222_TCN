@@ -1,0 +1,17 @@
+x: integer = 10;
+        y: integer = 20;
+        z: integer = 30;
+        main: function void() {
+            foo();
+            bar();
+            baz();
+        }
+        foo: function void() {
+            x = y + z;
+        }
+        bar: function void() {
+            y = x + z;
+        }
+        baz: function void() {
+            z = x + y;
+        }

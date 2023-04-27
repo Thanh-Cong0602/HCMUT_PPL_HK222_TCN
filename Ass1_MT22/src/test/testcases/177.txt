@@ -1,0 +1,2 @@
+/* this is a comment */ a=5; // this is a comment
+b=6

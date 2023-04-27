@@ -1,0 +1,12 @@
+x: integer = 5;
+        y: integer = 10;
+        foo: function integer (a: integer, b: integer) {
+            return a + b * (a - b);
+        }
+        bar: function boolean (n: integer) {
+            return (n > 0) && (n < 10);
+        }
+        main: function void() {
+            z: integer = foo(x + y, y - x) * 2 - 5;
+            printIntLn(z);
+        }

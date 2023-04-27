@@ -1,0 +1,20 @@
+x: boolean = true;
+        y: boolean = false;
+        z: boolean = (x == y);
+        main: function void() {
+            if (x) {
+                print("x is true");
+            } else {
+                print("x is false");
+            }
+            if (y) {
+                print("y is true");
+            } else {
+                print("y is false");
+            }
+            if (z) {
+                print("z is true");
+            } else {
+                print("z is false");
+            }
+        }

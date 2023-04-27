@@ -1,0 +1,19 @@
+
+            main: function void () inherit A {
+                x: integer;
+                y: float;
+                z: integer;
+                i: integer;
+                x = 5;
+                y = 2.5;
+                z = x + y;
+                for (i = 1, i < 10, i + 1) {
+                    writeIntLn(i);
+                }
+                if (z > 10) {
+                    writeStringLn("z is greater than 10");
+                } else {
+                    writeStringLn("z is less than or equal to 10");
+                }
+            }
+        

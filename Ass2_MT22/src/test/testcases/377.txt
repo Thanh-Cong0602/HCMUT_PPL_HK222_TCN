@@ -1,0 +1,11 @@
+
+            foo: function integer (x: integer) {
+                if (x > 0) {
+                    return x * foo(x - 1);
+                }
+                return 1;
+            }
+            main: function string () {
+                writeInt(foo(5));
+            }
+        

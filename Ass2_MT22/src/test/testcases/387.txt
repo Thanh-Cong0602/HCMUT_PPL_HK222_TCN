@@ -1,0 +1,10 @@
+foo: function integer(x: integer) {
+                z: integer;
+                z = x + 1;
+                return z;
+            }
+            bar: function float(y: float) {
+                z: float;
+                z = y * 2.0;
+                return z;
+            }

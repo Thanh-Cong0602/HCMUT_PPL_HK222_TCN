@@ -1,0 +1,4 @@
+main: function void() {
+                x: array [2,3] of boolean = {{true, false, true}, {false, true, false}};
+            }
+        

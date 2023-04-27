@@ -1,0 +1,8 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(10))
+	VarDecl(y, IntegerType, IntegerLit(20))
+	VarDecl(z, IntegerType, IntegerLit(30))
+	FuncDecl(foo, IntegerType, [Param(a, IntegerType), Param(b, IntegerType)], None, BlockStmt([IfStmt(BinExpr(>, Id(a), Id(b)), ReturnStmt(Id(a)), ReturnStmt(Id(b)))]))
+	FuncDecl(bar, BooleanType, [Param(n, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(&&, BinExpr(>=, Id(n), Id(x)), BinExpr(<=, Id(n), Id(z))))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(FuncCall(bar, [Id(y)]), CallStmt(print, StringLit(y is in range)), CallStmt(print, StringLit(y is out of range)))]))
+])

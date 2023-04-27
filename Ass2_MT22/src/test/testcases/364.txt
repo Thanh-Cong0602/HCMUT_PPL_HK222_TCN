@@ -1,0 +1,8 @@
+printMultiples: function void (n: integer) {
+        for (i = 1, i <= 10, i + 1) {
+        if (i * n > 100) {
+            break;
+        }
+         print(i * n);
+            }
+        }

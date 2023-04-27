@@ -1,0 +1,9 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(10))
+	VarDecl(y, IntegerType, IntegerLit(20))
+	VarDecl(z, IntegerType, IntegerLit(30))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(foo, ), CallStmt(bar, ), CallStmt(baz, )]))
+	FuncDecl(foo, VoidType, [], None, BlockStmt([AssignStmt(Id(x), BinExpr(+, Id(y), Id(z)))]))
+	FuncDecl(bar, VoidType, [], None, BlockStmt([AssignStmt(Id(y), BinExpr(+, Id(x), Id(z)))]))
+	FuncDecl(baz, VoidType, [], None, BlockStmt([AssignStmt(Id(z), BinExpr(+, Id(x), Id(y)))]))
+])

@@ -1,0 +1,7 @@
+main: function void () {
+            for(i = 1*2, i >= 100, i * 4) {
+                while(i % 4 == 0) {
+                    printString("Ayyo whatsup!");
+                }
+            }
+        }

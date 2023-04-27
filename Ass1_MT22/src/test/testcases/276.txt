@@ -1,0 +1,21 @@
+foo: function float (a: integer, b: float) inherit bar {
+                            return a + b;
+                        }
+                        main: function integer () {
+                            x: integer;
+                            y: integer;
+                            z: integer;
+                            t: integer;
+                            u: integer;
+                            v: integer;
+                            x = 10;
+                            y = 20;
+                            z = x + y;
+                            t = z * 2;
+                            u = t / 4;
+                            v = u - 5;
+                            writeInt(v);
+
+                            return 0;
+                        }
+                        

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(x, IntegerType, FuncCall(foo, [FuncCall(foo, [IntegerLit(1234)])])), ForStmt(AssignStmt(Id(x), IntegerLit(1)), IntegerLit(1), BinExpr(+, Id(x), IntegerLit(2)), BreakStmt())]))
+])

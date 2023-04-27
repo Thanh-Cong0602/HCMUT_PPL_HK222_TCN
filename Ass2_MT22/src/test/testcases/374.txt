@@ -1,0 +1,16 @@
+
+            a: integer;
+            b: float;
+            c: boolean;
+            d: string;
+            main: function integer () {
+                a = 1;
+                b = 2.0;
+                c = true;
+                d = "hello world";
+                writeIntLn(a);
+                writeFloatLn(b);
+                writeBoolLn(c);
+                writeStringLn(d);
+            }
+        

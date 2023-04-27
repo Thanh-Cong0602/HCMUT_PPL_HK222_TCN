@@ -1,0 +1,13 @@
+
+            foo: function integer(a: integer, b: float) { 
+                if (a > b) return a;
+                else return cc(b);
+            }
+            main: function void () {
+                x: integer;
+                y: float;
+                x = 10;
+                y = 20.5;
+                writeInt(foo(x, y));
+            }
+        

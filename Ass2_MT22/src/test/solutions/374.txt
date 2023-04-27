@@ -1,0 +1,7 @@
+Program([
+	VarDecl(a, IntegerType)
+	VarDecl(b, FloatType)
+	VarDecl(c, BooleanType)
+	VarDecl(d, StringType)
+	FuncDecl(main, IntegerType, [], None, BlockStmt([AssignStmt(Id(a), IntegerLit(1)), AssignStmt(Id(b), FloatLit(2.0)), AssignStmt(Id(c), BooleanLit(True)), AssignStmt(Id(d), StringLit(hello world)), CallStmt(writeIntLn, Id(a)), CallStmt(writeFloatLn, Id(b)), CallStmt(writeBoolLn, Id(c)), CallStmt(writeStringLn, Id(d))]))
+])

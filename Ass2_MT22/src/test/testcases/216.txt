@@ -1,0 +1,15 @@
+
+        a: integer;
+        main: function void () {
+            for(a=1,true,a+1){
+                a = a + 1;
+                break;
+            }
+            do {
+                continue;
+                a = "1234";
+                a = a::a;
+            }
+            while(true);
+        }
+        

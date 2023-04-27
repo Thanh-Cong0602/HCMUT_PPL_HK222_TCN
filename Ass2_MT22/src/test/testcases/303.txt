@@ -1,0 +1,8 @@
+
+        a,b,c: integer
+        main: function void () {
+            x: float = 12.12e235;
+            y: float = .e1703;
+            z: integer = 182005;
+            input = arr[5];
+            }

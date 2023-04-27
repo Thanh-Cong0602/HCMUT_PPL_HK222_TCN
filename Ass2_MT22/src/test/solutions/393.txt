@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(foo, BooleanType, [Param(a, BooleanType), Param(b, BooleanType)], None, BlockStmt([ReturnStmt(BinExpr(&&, BinExpr(||, Id(a), Id(b)), BinExpr(||, UnExpr(!, Id(a)), Id(b))))]))
+	FuncDecl(bar, BooleanType, [Param(n, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(&&, BinExpr(>, Id(n), IntegerLit(0)), BinExpr(<, Id(n), IntegerLit(10))))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(printBoolLn, BinExpr(||, FuncCall(foo, [BooleanLit(True), BooleanLit(False)]), FuncCall(bar, [IntegerLit(5)])))]))
+])

@@ -1,0 +1,6 @@
+Program([
+	VarDecl(x, StringType, StringLit(Hello))
+	VarDecl(y, StringType, StringLit(World))
+	VarDecl(z, StringType, BinExpr(+, Id(x), Id(y)))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(print, Id(z))]))
+])

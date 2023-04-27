@@ -1,0 +1,11 @@
+func: function void (a: integer, b: float, c: boolean) {
+            x: integer;
+            y: float = 3.14;
+            z: boolean = true;
+            if (c && b > 0) {
+                x = a + y;
+            }
+            else {
+                x = a - y;
+            }
+        }

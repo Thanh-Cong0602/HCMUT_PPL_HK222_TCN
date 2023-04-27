@@ -1,0 +1,4 @@
+Program([
+	VarDecl(delta, IntegerType, FuncCall(fact, [ArrayLit([ArrayLit([StringLit(1234)])])]))
+	VarDecl(a, IntegerType, IntegerLit(5))
+])

@@ -1,0 +1,9 @@
+
+            main:function void(){
+                printString("Hay nhap tuoi cua ban");
+                a:integer=readInteger();
+                printString("So tuoi cua ban la: ");
+                printInteger(a);
+                return;
+            }
+        

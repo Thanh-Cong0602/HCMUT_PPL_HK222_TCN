@@ -1,0 +1,5 @@
+foo:function integer(x: integer, y: float) {
+                z: integer;
+                z = x + y;
+                return z;
+            }

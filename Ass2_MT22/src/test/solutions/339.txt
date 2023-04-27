@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, IntegerType, FuncCall(foo, [ArrayLit([IntegerLit(123)]), ArrayLit([IntegerLit(134)])])), VarDecl(b, IntegerType, FuncCall(foo, [ArrayLit([IntegerLit(123)]), ArrayLit([IntegerLit(134)])]))]))
+])

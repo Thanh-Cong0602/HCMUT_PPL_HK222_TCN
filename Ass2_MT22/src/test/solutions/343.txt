@@ -1,0 +1,6 @@
+Program([
+	VarDecl(x, BooleanType, BooleanLit(True))
+	VarDecl(y, BooleanType, BooleanLit(False))
+	VarDecl(z, BooleanType, BinExpr(==, Id(x), Id(y)))
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(Id(x), BlockStmt([CallStmt(print, StringLit(x is true))]), BlockStmt([CallStmt(print, StringLit(x is false))])), IfStmt(Id(y), BlockStmt([CallStmt(print, StringLit(y is true))]), BlockStmt([CallStmt(print, StringLit(y is false))])), IfStmt(Id(z), BlockStmt([CallStmt(print, StringLit(z is true))]), BlockStmt([CallStmt(print, StringLit(z is false))]))]))
+])

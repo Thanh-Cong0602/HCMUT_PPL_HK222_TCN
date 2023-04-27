@@ -1,0 +1,6 @@
+Program([
+	VarDecl(a, IntegerType)
+	VarDecl(b, IntegerType)
+	VarDecl(c, IntegerType)
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(x, FloatType, FloatLit(1.212e+236)), VarDecl(y, FloatType, FloatLit(0.0)), VarDecl(z, IntegerType, IntegerLit(182005)), AssignStmt(Id(input), ArrayCell(arr, [IntegerLit(5)]))]))
+])

@@ -1,0 +1,12 @@
+x: integer = 10;
+        y: integer = 20;
+        z: integer = 30;
+        foo: function integer (a: integer, b: integer, c: integer) {
+            return a + b * c;
+        }
+        bar: function integer (n: integer) {
+            return foo(x, y, z) + n;
+        }
+        main: function void() {
+            printIntLn(bar(5));
+        }

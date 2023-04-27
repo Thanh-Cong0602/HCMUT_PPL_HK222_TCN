@@ -1,0 +1,8 @@
+main: function void () {
+                if(a || b) {
+                a : integer = 3;
+                return "abc";
+            }
+            else
+                return "abc";
+        }

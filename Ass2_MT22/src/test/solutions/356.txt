@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(foo, IntegerType, [Param(x, IntegerType)], None, BlockStmt([]))
+	FuncDecl(bar, FloatType, [Param(y, FloatType)], None, BlockStmt([]))
+])

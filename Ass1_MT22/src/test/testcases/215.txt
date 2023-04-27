@@ -1,0 +1,9 @@
+
+        a: integer;
+        main: function void () {
+            for(a=1,true,a+1){
+                a = a + 1;
+            }
+        
+        }
+        

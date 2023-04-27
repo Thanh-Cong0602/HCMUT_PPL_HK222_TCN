@@ -1,0 +1,16 @@
+main: function void () {
+            if(a == b + 4) {
+                for( i = 0, i<10*a, i + b) {
+                    if(i == 5)
+                        break;
+                    else {
+                        foo("Tran Ngoc Bao Duy", "PPL");
+                    }
+                }
+            }
+            else {
+                while(i < 100*a*b) {
+                    printString("Gangzz");
+                }
+            }
+        }

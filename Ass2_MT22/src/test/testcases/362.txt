@@ -1,0 +1,6 @@
+x: string = "Hello";
+        y: string = "World";
+        z: string = x + y;
+        main: function void() {
+            print(z);
+        }

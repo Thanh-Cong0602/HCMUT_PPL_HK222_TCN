@@ -1,0 +1,4 @@
+
+        delta: integer = fact({{"1234"}});
+        a: integer = 5;
+        

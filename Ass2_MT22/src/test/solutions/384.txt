@@ -1,0 +1,5 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(10))
+	VarDecl(y, IntegerType, IntegerLit(20))
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(>, Id(x), Id(y)), BlockStmt([CallStmt(print, StringLit(x is greater than y))]), BlockStmt([CallStmt(print, StringLit(x is less than or equal to y))]))]))
+])

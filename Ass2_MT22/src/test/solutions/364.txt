@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(printMultiples, VoidType, [Param(n, IntegerType)], None, BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<=, Id(i), IntegerLit(10)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(>, BinExpr(*, Id(i), Id(n)), IntegerLit(100)), BlockStmt([BreakStmt()])), CallStmt(print, BinExpr(*, Id(i), Id(n)))]))]))
+])

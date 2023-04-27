@@ -1,0 +1,16 @@
+
+            foo: function integer(a: integer, b: float) { 
+                if (a > b) return a;
+                else return int(b);
+            }
+            bar: function integer(a: integer, b: float) inherit foo { 
+                return foo(a, b) + 1;
+            }
+            main: function void() {
+                x: integer;
+                y: float;
+                x = 10;
+                y = 20.5;
+                writeInt(bar(x, y));
+            }
+        

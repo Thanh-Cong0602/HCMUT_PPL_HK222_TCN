@@ -1,0 +1,8 @@
+main: function void () {
+            a,b : array [3] of integer = {1,2,3}, {2,3,4};
+            return a*main(1,2,3);
+            }
+            inc : function array [1] of integer (out n : integer , delta : integer ) inherit abc{
+                n = n + delta ;
+            }
+        

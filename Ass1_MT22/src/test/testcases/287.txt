@@ -1,0 +1,3 @@
+main: function void() {
+        a,b : integer = foo({123},{134}), foo({123},{134});
+        }
